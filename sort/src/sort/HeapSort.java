@@ -8,7 +8,6 @@ public class HeapSort {
 
 	public static void main(String[] args) {
 		int [] array= {16,14,8,7,2,4,10,9,3,1};
-		//int [] array= {};
 		heapSort(array);
 		for (int i : array) {
 			System.out.print(i+" ");
